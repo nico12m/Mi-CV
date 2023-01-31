@@ -1,0 +1,135 @@
+
+.encabezado{
+    background-image: url("https://fondosmil.com/fondo/25830.jpg");
+    color:white;
+    margin:1px;
+    margin-bottom: 0px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content:space-evenly;
+    align-items: center;
+    border:2px solid grey;
+}
+.nombre{
+    margin:20px;
+    padding-right: 40px;
+    font-family: 'Kanit', sans-serif;
+    font-size: 3rem;
+}
+.encabezado img{
+    margin:2px;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+}
+.barra{
+    background-image: url("https://fondosmil.com/fondo/25788.jpg");
+    background-size: cover;
+    position:relative;
+    color:aliceblue;
+    margin:1px;
+    margin-top: -2px;
+    margin-right: 0px;
+    border:2px solid grey;
+    max-width: 20%;
+    min-width: 230px;
+    max-height: max-content;
+    display:flex;
+    flex-direction: column;
+    justify-content: start;
+    
+}
+.boton{
+    margin:1px;
+    background-color: rgba(42, 92, 75, 0.575);
+    border-radius: 5px;
+    color:black;
+    font-weight: bold;
+}
+.boton:hover{
+    border-color: rgb(255, 239, 239);
+    transition: .3s;
+    font-family: 'Noto Serif Khmer', serif;
+}
+.contacto{
+    padding:5px;
+    border-top: 1px solid black;
+}
+.divisor{
+    display:flex;
+    flex-direction: row;
+}
+.contenedor{
+    background-image: url("https://st2.depositphotos.com/1006472/12428/i/600/depositphotos_124288382-stock-photo-beige-towel-texture.jpg");
+    background-size:contain;
+    width: 80%;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    min-height:500px;
+}
+.informacion{
+   text-align: center;
+   
+}
+.nolist{
+    list-style: none;
+}
+.experiencias{
+    padding-left: 20px;
+}
+.experiencias ul{
+    list-style: none;
+    text-align: center;
+}
+.habilidades{
+    text-align: center;
+}
+.habilidades ul li{
+    list-style: none;
+}
+
+.linkmenu{
+    text-decoration: none;
+    color:black;
+    font-size: small;
+    font-weight: bold;
+    margin: 10px;
+    
+}
+#informacion{
+    width: 100%; 
+    display:none;
+    padding-left: 20px;
+    text-align: center;  
+}
+#menu{
+    width: 100%; 
+    display: block;
+    padding-left: 20px;
+    text-align: center;
+}
+#menu h1{
+    text-align: center;
+}
+#experiencias{
+    width: 100%     ; 
+    display:none;
+    
+}
+#habilidades{
+    width: 100%;
+    display:none;
+    
+}
+.letra1{
+    font-family: 'Kanit', sans-serif;
+    font-size: 2rem;
+}
+ul, p{
+    font-family: 'Noto Serif Khmer', serif;
+}
+h1, h2, h3{
+    font-family: 'Kanit', sans-serif; 
+}
